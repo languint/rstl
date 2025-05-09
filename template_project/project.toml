@@ -1,0 +1,6 @@
+[project]
+name = "Template Project"
+
+
+[build]
+source_dir = "src"
