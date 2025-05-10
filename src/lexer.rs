@@ -49,13 +49,6 @@ pub enum Token {
     NotEquals,
     #[token("->")] // Really only for function return type annotations.
     To,
-    // Types
-    #[token("string")]
-    StringType,
-    #[token("float")]
-    FloatType,
-    #[token("int")]
-    IntType,
-    #[token("bool")]
-    BoolType,
+    #[token("~")] // Type annotator
+    Tilde,
 }

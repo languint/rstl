@@ -133,7 +133,7 @@ pub mod lexer_test {
                 Token::LeftParen,
                 Token::RightParen,
                 Token::To,
-                Token::FloatType,
+                Token::Literal,
                 Token::LeftBrace,
                 Token::ReturnKeyword,
                 Token::NumberLiteral,
